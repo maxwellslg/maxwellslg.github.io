@@ -1,0 +1,277 @@
+@font-face {
+	font-family: lobster;
+	src: url('../font/lobster.otf');
+}
+
+@font-face {
+	font-family: lato;
+	src: url('../font/Lato-Lig.ttf');
+}
+
+@font-face{
+	font-family: myriadPro-cond;
+	src: url('../font/MyriadPro-Condensed.ttf');
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	font-family: myriadPro-cond;
+}
+
+p{
+	font-size: 1.5em;
+	line-height: 1.75em;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* NAV BAR */
+.top-bar{
+	background-color: #000000;
+	margin-bottom: 0px;
+}
+
+.top-bar-section ul {
+	padding-right: 30px;
+	height: auto;
+	display: block;
+	background: #000000;  
+	margin: 0; 
+}
+
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+	border-left: #2b2b2b;
+}
+
+.top-bar-section ul li > a {
+	font-size: .7em;
+	text-decoration: none;
+}
+
+.divider{	
+	border-bottom: solid 1px #000000;
+	border-top: solid 1px #000000;	
+}
+
+.nav-font {
+	font-family: lato;
+	font-size: 22px;
+	text-align: center;
+	margin: 0px;
+
+}
+.top-bar-section ul li.nav-font:hover > a {
+	//background-color: #2b2b2b;
+	background-color: #4C4C4C;
+}
+
+.navCol {
+	float: left;
+	width: 617px;
+	position: fixed;
+	left:-475px;
+	top: 20px;
+	z-index: 2;	
+
+}
+
+.logo {
+	font-family: lobster;
+	float: right;
+	color: #e15b4f;
+	padding-left: 25px;
+	font-size: 26px;
+}
+/* END OF NAV BAR */
+
+/* END of Quote Rotator */
+
+
+.header{
+	font-family: lobster;
+	font-size: 4em;
+	padding-top: 2.1em;
+	padding-left: 0px;
+	margin-bottom: 40px;
+}
+
+
+
+
+//PICTURES SECTION
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+
+
+
+
+.border{
+	border: 5px solid #fff;
+}
+
+
+
+
+/* DROP DOWN MENU FOR PROFILES */
+
+.panel
+{
+	clear: both;
+	height: 300px;
+	width: 735px;
+	//padding-bottom:25px;
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	//display:none;
+	text-align:left;
+	//background-color:#eb9d9e;
+	background-color: #ff8080;
+	border:solid 5px #ffffff;
+	overflow-y: scroll;
+}
+
+
+
+
+
+
+.flexslider{
+	background-color: #000;
+	border: 4px solid #000;
+}
+
+
+
+
+
+ul {
+	margin: 0;
+	text-align: left;
+}
+
+ul.item li {
+	list-style-type: none;
+	display: block;
+	float: left;
+	margin: .5em;
+}
+
+
+
+/* Additional Styling */
+
+
+a, a:visited, a:hover {
+	color: #161616;
+	text-decoration: none; 
+}
+
+.photos img {
+	width: auto;
+	height: 130px;
+	border: 5px solid #fff;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+#housing{
+	padding-top: 2em;
+}
+
+
+
+
+
+
+
+
+/*Profiles */
+.profile li{
+	height: 160px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.profile li img {
+	width: auto;
+	height: 135px;
+	border: 5px solid #fff;
+	-webkit-box-shadow: 0px 0px 5px #ac987e;
+	-moz-box-shadow: 0px 0px 5px #ac987e;
+	box-shadow: 0px 0px 5px #ac987e;
+}
+
+
+
+/*Footer*/
+#creator{
+	text-align: right;
+	line-height: 1.6em;
+}
+
+/* SEASONAL PAGES */
+#rush{
+	//font-size: 1.5em;
+	min-height: 45em;
+	height: auto;
+	background: #e15c4f url(../img/logo.png) no-repeat right fixed;
+}
+
+#rush-header{
+	font-family: lobster;
+	font-size: 4.8em;
+	padding-top: 2.1em;
+	padding-left: 0px;
+	padding-bottom: 1em;
+	color: #fff;
+	line-height: 1em;
+
+}
+
+#calendar{
+	padding-top: 3em;
+	display: block;
+	margin: auto;
+	height: 14em;
+	float: left;
+	padding-left: 1em;
+}
+
+#phone{
+	padding-top: 3em;
+	display: block;
+	margin: auto;
+	height: 14em;
+	float: left;
+}
+
+
+.both{
+	clear: both;
+	text-align: center;
+	padding-top: 1em;
+}
+
+#ical{
+	padding-top: 1em;
+	clear: left;
+	text-align: center;
+}
+
+#rushpdf{
+	padding-top: 1em;
+	clear: left;
+	text-align: center;
+}

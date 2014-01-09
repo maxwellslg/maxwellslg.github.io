@@ -1,0 +1,37 @@
+/* PAGES */
+#page1{
+	min-height: 30em;
+	height: auto;
+	background-color: #333;
+	color: #999;
+	padding-bottom: 2em;
+}
+
+#page2{
+	min-height: 30em;
+	height: auto;
+	background: linear-gradient(#e9e8e7, #d3d1cc);
+}
+
+#page3{
+	min-height: 30em;
+	height: auto;
+	background: linear-gradient(#e15c4f,#f7786c);
+	padding-bottom: 4em;
+}
+
+#page4{
+	min-height: 30em;
+	height: auto;
+	background-color: #e9e8e7;
+	padding-bottom: 4em;
+}
+
+#footer{
+	bottom: 1em;
+	height: 7.5em;
+	padding-top: 2.5em;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
