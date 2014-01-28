@@ -275,3 +275,24 @@ a, a:visited, a:hover {
 	clear: left;
 	text-align: center;
 }
+
+
+
+
+#news{
+	//font-size: 1.5em;
+	min-height: 30em;
+	height: auto;
+	background: #e15c4f url(../img/logo.png) no-repeat right fixed;
+}
+
+#news-header{
+	font-family: lobster;
+	font-size: 4em;	
+	padding-top: 2.1em;
+	padding-left: 0px;
+	padding-bottom: 1em;
+	color: #fff;
+	line-height: 1em;
+
+}
