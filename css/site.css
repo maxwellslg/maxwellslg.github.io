@@ -284,6 +284,7 @@ a, a:visited, a:hover {
 	min-height: 30em;
 	height: auto;
 	background: #e15c4f url(../img/logo.png) no-repeat right fixed;
+	padding-bottom: 4em;
 }
 
 #news-header{
