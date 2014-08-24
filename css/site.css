@@ -228,6 +228,7 @@ a, a:visited, a:hover {
 	min-height: 45em;
 	height: auto;
 	background: #e15c4f url(../img/logo.png) no-repeat left fixed;
+	padding-left: 2em; 
 }
 
 #rush-header{
@@ -286,7 +287,7 @@ a, a:visited, a:hover {
 	height: auto;
 	background: #e15c4f url(../img/logo.png) no-repeat left fixed;
 	padding-bottom: 4em;
-	padding-left: 50em;
+	padding-left: 35em;
 }
 
 #news-header{
