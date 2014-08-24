@@ -1,3 +1,4 @@
+
 @font-face {
 	font-family: lobster;
 	src: url('../font/lobster.otf');
@@ -226,7 +227,7 @@ a, a:visited, a:hover {
 	//font-size: 1.5em;
 	min-height: 45em;
 	height: auto;
-	background: #e15c4f url(../img/logo.png) no-repeat right fixed;
+	background: #e15c4f url(../img/logo.png) no-repeat left fixed;
 }
 
 #rush-header{
@@ -283,7 +284,7 @@ a, a:visited, a:hover {
 	//font-size: 1.5em;
 	min-height: 30em;
 	height: auto;
-	background: #e15c4f url(../img/logo.png) no-repeat right fixed;
+	background: #e15c4f url(../img/logo.png) no-repeat left fixed;
 	padding-bottom: 4em;
 }
 
