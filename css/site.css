@@ -286,6 +286,7 @@ a, a:visited, a:hover {
 	height: auto;
 	background: #e15c4f url(../img/logo.png) no-repeat left fixed;
 	padding-bottom: 4em;
+	padding-left: 4em;
 }
 
 #news-header{
