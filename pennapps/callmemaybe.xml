@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<Say voice="alice">Thanks for dealing with our scraper!</Say>
+	<Play digits="ww1ww2ww3ww4"></Play>
+
+</Response>
