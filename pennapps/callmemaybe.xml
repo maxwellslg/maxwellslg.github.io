@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-	<Play digits="wwww"></Play>
-	<Record maxLength="10" transcribe="true" transcribeCallback="http://482c5aa6.ngrok.com/transcribe" action="http://482c5aa6.ngrok.com/"/>
+	<Record maxLength="100" timeout="4" transcribe="true" transcribeCallback="http://482c5aa6.ngrok.com/transcribe" action="http://482c5aa6.ngrok.com/"/>
 </Response>
