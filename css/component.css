@@ -42,8 +42,8 @@
 
 .cbp-qtprogress {
 	position: absolute;
-	background: #47a3da;
-	height: 1px;
+	background: #FFC71D;
+	height: 2px;
 	width: 0%;
 	top: 0;
 	z-index: 1000;
