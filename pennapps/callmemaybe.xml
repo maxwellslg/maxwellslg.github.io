@@ -3,5 +3,4 @@
 	<Say voice="alice">Thanks for dealing with our scraper!</Say>
 	<Play digits="ww1"></Play>
 	<Record maxLength="10" transcribe="true" transcribeCallback="http://482c5aa6.ngrok.com/transcribe" action="http://482c5aa6.ngrok.com/"/>
-	<Hangup/>
 </Response>
