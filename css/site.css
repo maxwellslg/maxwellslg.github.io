@@ -231,6 +231,10 @@ a, a:visited, a:hover {
 	padding-left: 2em; 
 }
 
+#rush p{
+	color: #fff;
+}
+
 #rush-header{
 	font-family: lobster;
 	font-size: 4.8em;
@@ -239,7 +243,6 @@ a, a:visited, a:hover {
 	padding-bottom: 1em;
 	color: #fff;
 	line-height: 1em;
-
 }
 
 #calendar{
@@ -247,8 +250,6 @@ a, a:visited, a:hover {
 	display: block;
 	margin: auto;
 	height: 14em;
-	float: left;
-	padding-left: 1em;
 }
 
 #phone{
@@ -256,7 +257,7 @@ a, a:visited, a:hover {
 	display: block;
 	margin: auto;
 	height: 14em;
-	float: left;
+	//float: left;
 }
 
 
