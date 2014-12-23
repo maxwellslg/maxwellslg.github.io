@@ -69,7 +69,8 @@ a {
 
 .navCol {
 	float: left;
-	width: 617px;
+	//width: 617px;
+	width: 620px;
 	position: fixed;
 	left:-475px;
 	top: 20px;
