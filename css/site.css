@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6, p{
 	font-family: myriadPro-cond;
 }
 
+h6{
+  color: white;
+}
+
 p{
 	font-size: 1.5em;
 	line-height: 1.75em;
@@ -62,6 +66,8 @@ a {
 	margin: 0px;
 
 }
+
+
 .top-bar-section ul li.nav-font:hover > a {
 	//background-color: #2b2b2b;
 	background-color: #4C4C4C;
@@ -81,7 +87,7 @@ a {
 .logo {
 	font-family: lobster;
 	float: right;
-	color: #e15b4f;
+	color: white;
 	padding-left: 25px;
 	font-size: 26px;
 }
@@ -228,10 +234,9 @@ a, a:visited, a:hover {
 	//font-size: 1.5em;
 	min-height: 45em;
 	height: auto;
-	background: #e15c4f url(../img/logo.png) no-repeat left fixed;
-	padding-left: 2em; 
+	background: #990a2e url(../img/logo.png) no-repeat fixed;
+	background-position: 15% 30%; 
 }
-
 #rush p{
 	color: #fff;
 }
@@ -239,9 +244,9 @@ a, a:visited, a:hover {
 #rush-header{
 	font-family: lobster;
 	font-size: 4.8em;
-	padding-top: 2.1em;
+	padding-top: 1.5em;
 	padding-left: 0px;
-	padding-bottom: 1em;
+	padding-bottom: 10px;
 	color: #fff;
 	line-height: 1em;
 }
@@ -278,6 +283,7 @@ a, a:visited, a:hover {
 	padding-top: 1em;
 	clear: left;
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 
