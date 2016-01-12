@@ -80,6 +80,7 @@ select {
   width: 100%; }
 
 /* Grid HTML Classes */
+
 .row {
   width: 100%;
   margin-left: auto;
@@ -259,7 +260,7 @@ select {
 
   .large-5 {
     position: relative;
-    width: 41.66667%; }
+    width: 45%; }
 
   .large-6 {
     position: relative;
@@ -267,7 +268,7 @@ select {
 
   .large-7 {
     position: relative;
-    width: 58.33333%; }
+    width: 55%; }
 
   .large-8 {
     position: relative;
@@ -1225,12 +1226,14 @@ abbr {
 /* Blockquotes */
 blockquote {
   margin: 0 0 1.25em;
+  vertical-align: bottom;
+  margin-top: 10px;
   padding: 0.5625em 1.25em 0 1.1875em;
   //border-left: 1px solid #dddddd; }
   blockquote cite {
     display: block;
     font-size: 0.8125em;
-    color: #555555; }
+    color: black; }
     blockquote cite:before {
       content: "\2014 \0020"; }
     blockquote cite a,
@@ -1240,7 +1243,10 @@ blockquote {
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #6f6f6f; }
+  color: black;
+  font-weight: 4px;
+  font-size: 1em;
+}
 
 /* Microformats */
 .vcard {

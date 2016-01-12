@@ -3,18 +3,27 @@
 	padding-top: 1.3em;
 	padding-right: 0em;
 	text-align: right;
-	font-size: 2.3em;
+	font-size: 2.5em;
 	font-family: myriadPro-cond;
+	color: black;
+}
+.maxwell-emphasized{
+	font-size: 3em;
+	font-family: myriadPro-cond;
+	font-weight: 4px;
+	color: #990a2e;
+}
+
+.dots{
+	font-size: 2em;
+	font-family: myriadPro-cond;
+	font-weight: 4px;
+	color: #990a2e;
 }
 
 .cbp-qtrotator .cbp-qtcontent{
-	height: 9em;
-}
-
-.cbp-qtrotator .cbp-qtcontent h5{
-	color: #FFFFFF;
-}
-
-blockquote h5 {
-	font-size: 1.7em;
+	padding-top: 1.7em;
+	font-size: 2.5em;
+	font-family: myriadPro-cond;
+	color: black;
 }
